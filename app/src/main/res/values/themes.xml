@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/main</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomButton2">
+        <item name="android:background">@drawable/button2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius" />
+</resources>
